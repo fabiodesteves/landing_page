@@ -170,3 +170,49 @@ q {
 q::after {
 	content: none;
 }
+
+/* (4) CALL TO ACTION SECTION */
+
+.call-to-action-section {
+	display: flex;
+	justify-content: center;
+}
+
+.call-to-action {
+	display: flex;
+	gap: 160px;
+	align-items: center;
+	/* border: 3px solid salmon; */
+	margin: 100px 200px;
+	background-color: #3882f6;
+	border-radius: 15px;
+	color: #E5E7Eb;
+	padding: 50px 120px;
+}
+
+.call-to-action button {
+	border: 2px solid #F9FAF8;
+	min-width: 110px;
+}
+
+.call-to-action h3 {
+	margin: 0;
+}
+
+.call-to-action p {
+	margin: 0;
+}
+
+/* (5) FOOTER SECTION */
+
+.footer-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100px;
+	background-color: #1F2937;
+}
+
+.footer-section p {
+	color: #E5E7Eb;
+}
