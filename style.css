@@ -15,7 +15,7 @@ body {
 	justify-content: space-between;
 	align-items: center;
 	background-color: #1F2937;
-	/* padding: 0 200px; */
+	padding: 6.5px 0;
 }
 
 .header-logo {
@@ -23,14 +23,14 @@ body {
 	font-size: 24px;
 	color: #F9FAF8;
 	font-weight: bold;
-	margin: 0 0 0 100px;
+	margin-left: 200px;
 }
 
 .header ul {
 	display: flex;
 	gap: 25px;
 	list-style-type: none;
-	margin-right: 100px;
+	margin-right: 200px;
 }
 
 .header ul li a {
@@ -46,7 +46,7 @@ body {
 	/* align-items: start; */
 	background-color: #1F2937;
 	color: #F9FAF8;
-	padding: 90px 0;
+	padding: 82.5px 0;
 	gap: 50px;
 }
 
@@ -62,22 +62,111 @@ h1 {
 	display: flex;
 	flex-direction: column;
 	max-width: 700px;
-	margin-left: 100px;
+	margin-left: 200px;
+}
+
+/* Text in the hero section */
+.hero p {
+	font-size: 18px;
 }
 
 button {
-	max-width: 100px;
-	padding: 5px 15px;
+	width: 130px;
+	height: 40px;
 	border-radius: 6px;
 	background-color: #3882f6;
 	color: #E5E7Eb;
 	border-color: transparent;
 	font-weight: 600;
+	font-size: 18px;
 }
 
 .first-section-image {
 	max-width: auto;
 	max-height: 300px;
 	/* border: solid red; */
-	margin-right: 100px;
+	margin-right: 200px;
+}
+
+/* Second section part */
+
+.second-section {
+	/* border: 2px solid plum; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.second-section-header {
+	font-size: 23px;
+	margin: 20px 0;
+	color: #1F2937;
+	font-weight: 900;
+}
+
+.second-section-cards {
+	border: #1F2937;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 50px;
+	margin-bottom: 120px;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	max-width: 170px;
+}
+
+.card-image {
+	width: 168px;
+	height: 168px;
+	border: 4px solid #3882f6;
+	border-radius: 18px;
+	margin-bottom: 7px;
+}
+
+.card-text {
+	font-size: 18px;
+	text-align: center;
+	color: rgb(79, 86, 98);
+}
+
+/* (3) QUOTE SECTION */
+.quote-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #E5E7Eb;
+}
+
+.quote-and-author {
+	margin: 120px 300px 100px;
+	min-width: 500px;
+}
+
+.customer-quote {
+	font-size: 36px;
+	color: #1F2937;
+	font-style: italic;
+	font-weight: lighter;
+}
+
+.customer-quote-author {
+	display: flex;
+	justify-content: end;
+}
+
+/* don't show quotation marks */
+q::before {
+	content: none;
+}
+
+q {
+	display: block;
+}
+
+q::after {
+	content: none;
 }
